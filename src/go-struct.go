@@ -25,10 +25,11 @@ func (person *Person) Move(address string) string {
 }
 
 func (person *Person) Grow() {
-
+	fmt.Printf("   ")
+	fmt.Printf("growing.....")
 }
 
-func main() {
+func main6() {
 	p := Person{"Robert", "Male", 33, "Beijing"}
 
 	oladAddress := p.Move("San fransisco")
@@ -37,6 +38,7 @@ func main() {
 	animal, ok := interface{}(&p).(Animal)
 	if ok {
 		fmt.Printf("%v\n", animal.Move("Shanghai"))
+		animal.Grow()
 	} else {
 		fmt.Printf("transfer to animal failed. \n")
 	}
