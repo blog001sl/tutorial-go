@@ -52,6 +52,10 @@ go run hello.go
 hello, world
 ```
 
+#### 3. 问题
+* 指针和接口方法定义关系（实现接口时，类型参数和指针类型参数）？
+* struct 怎么取指针？
+
 #### 相关链接
 * [golang](https://golang.google.cn/dl/)
 * [vscode](https://code.visualstudio.com/docs?start=true)
