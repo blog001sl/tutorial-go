@@ -30,7 +30,8 @@ D:\Go\src\golang.org\x\tools\internal\lsp\protocol\span.go:13:2: cannot find pac
 # 下载代码
 mkdir -p $GOPATH/src/golang.org/x
 cd $GOPATH/src/golang.org/x
-
+git clone https://github.com/golang/sync.git sync
+go install golang.org/x/sync/errgroup
 
 ```
 
