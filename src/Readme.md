@@ -7,6 +7,14 @@ c:\>go version
 go version go1.13.1 windows/amd64
 ```
 
+Linux 下载go1.13.1.linux-amd64.tar.gz
+```bash
+tar -C /usr/local -xzf go1.13.1.linux-amd64.tar.gz
+vim /etc/profile
+# 添加以下环境变量
+# export PATH=$PATH:/usr/local/go/bin
+```
+
 #### 2. 构建vscode-go环境
 ##### 2.1 vscode terminal设置为git bath
 编辑 `settings.json`，便捷`terminal.integrated.shell.windows`项

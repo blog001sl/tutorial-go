@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main10() {
 	ch1 := make(chan int, 0)
 	ch2 := make(chan int, 0)
 	ch3 := make(chan int, 0)
